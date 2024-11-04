@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+}
+
+.header {
+    background-image: url(https://www.canva.com/design/DAGVOGet1no/xj89BQY2wvemwP7sXdMpYw/view?utm_content=DAGVOGet1no&utm_campaign=designshare&utm_medium=link&utm_source=editor);
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.nav-extras {
+    display: flex;
+    gap: 10px;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px;
+    background-color: #e8f5e9;
+}
+
+.hero h1 {
+    font-size: 36px;
+}
+
+.shop-btn {
+    padding: 10px 20px;
+    background-color: #6b8e23;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.categories {
+    padding: 40px;
+    text-align: center;
+}
+
+.category-items {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.category-item img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.collection {
+    background-color: #fff;
+    padding: 40px;
+    text-align: center;
+}
+
+.products {
+    padding: 40px;
+}
+
+.product-items {
+    display: flex;
+    justify-content: space-around;
+}
+
+.product-item img {
+    width: 100px;
+    height: 150px;
+}
+
+.price {
+    font-weight: bold;
+    color: #333;
+}
